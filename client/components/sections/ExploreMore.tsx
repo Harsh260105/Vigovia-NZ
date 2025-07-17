@@ -28,7 +28,7 @@ export default function ExploreMore({ destinations }: ExploreMoreProps) {
                   <img
                     src={destination.image}
                     alt={destination.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
                   />
                 </div>
                 <span className="text-xs font-medium mt-3 uppercase tracking-wide text-violet-950 text-center">
