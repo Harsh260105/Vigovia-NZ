@@ -1,7 +1,5 @@
 # Vigovia New Zealand - Travel Website
 
-![Vigovia New Zealand](public/vigovia-logo.svg)
-
 A responsive travel website showcasing New Zealand tourism experiences, built with React, TypeScript, and Tailwind CSS.
 
 ## 📱 Features
@@ -101,15 +99,3 @@ The project uses a consistent design system with:
 - Personalized recommendations
 - Multi-language support
 - Dark mode toggle
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Contributors
-
-- Your Name - Initial work and design
-
----
-
-Made with ❤️ by Vigovia Travel Technologies
