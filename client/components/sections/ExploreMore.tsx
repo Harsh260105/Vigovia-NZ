@@ -21,7 +21,7 @@ export default function ExploreMore({ destinations }: ExploreMoreProps) {
 
         <div className="relative">
           {/* Destinations Slider */}
-          <div className="flex space-x-14 px-4 overflow-x-auto hide-scrollbar py-4 no-scrollbar">
+          <div className="flex space-x-14 px-4 overflow-x-auto hide-scrollbar py-4 no-scrollbar sm:justify-center">
             {destinations.map((destination, index) => (
               <div key={index} className="flex flex-col items-center flex-shrink-0">
                 <div className="w-32 h-32 scale-125 rounded-full overflow-hidden mb-3 shadow-sm">
@@ -31,7 +31,7 @@ export default function ExploreMore({ destinations }: ExploreMoreProps) {
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
                   />
                 </div>
-                <span className="text-xs font-medium mt-3 uppercase tracking-wide text-violet-950 text-center">
+                <span className="text-xs font-medium mt-4 uppercase tracking-wide text-violet-950 text-center">
                   {destination.name}
                 </span>
               </div>
